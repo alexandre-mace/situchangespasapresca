@@ -12,8 +12,11 @@ iframe {
 button {
     outline: none !important;
 }
-svg {
-    max-height: 400px;
+
+@media screen and (max-width: 900px) {
+    svg {
+        max-height: 220px;
+    }
 }
 .mr-6 {
     margin-right: 10rem !important;

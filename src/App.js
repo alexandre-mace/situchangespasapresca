@@ -9,8 +9,10 @@ import BeerCelebrationSvg from "./utils/BeerSvg";
 import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn';
 import WaitingForYouSvg from "./utils/WaitingForYouSvg";
 import DoneIcon from '@material-ui/icons/Done';
+import responsiveFontSizes from "@material-ui/core/styles/responsiveFontSizes";
+import {createMuiTheme} from "@material-ui/core";
 
-const maxStep = 15;
+
 
 function App() {
     const [step, setStep] = useState(1);
@@ -73,7 +75,7 @@ function App() {
                 </div>
             </div>
             {!hasSeenOnBoarding &&
-            <div className="container m-auto">
+            <div className="container mb-3 mt-auto mb-md-auto m-md-auto">
                 <div className="row">
                     <div className="col-12">
                         <WaitingForYouSvg/>
@@ -98,11 +100,11 @@ function App() {
             }
             {(hasSeenOnBoarding && !finish) &&
             <div className="position-absolute d-flex h-100 w-100">
-                <div className="container m-auto">
+                <div className="container mb-3 mt-auto mb-md-auto m-md-auto">
                     <div className="row">
                         <div className="col">
                             <Typography className={"text-center mb-0"} variant="h3" gutterBottom>
-                                {step} / {maxStep}
+                                {step} / {medias.length}
                             </Typography>
                         </div>
                     </div>
@@ -122,7 +124,7 @@ function App() {
                             }
                         </div>
                     </div>
-                    <div className="row mt-5">
+                    <div className="row mt-3 mt-md-5">
                         <div className="col text-center">
                             {step > 1 &&
                             <IconButton onClick={() => handleStepBackward()} color={"inherit"} className={"mr-6"}>
