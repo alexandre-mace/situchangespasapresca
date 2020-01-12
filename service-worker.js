@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/situchangespasapresca/precache-manifest.caf36f9459369a190d1347d02f51954d.js"
+  "/situchangespasapresca/precache-manifest.1bacca762a400a2c704040d37d00ae21.js"
 );
 
 self.addEventListener('message', (event) => {
