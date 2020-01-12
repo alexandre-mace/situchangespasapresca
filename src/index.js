@@ -8,6 +8,15 @@ import responsiveFontSizes from "@material-ui/core/styles/responsiveFontSizes";
 import {ThemeProvider} from '@material-ui/styles';
 
 let theme = createMuiTheme({
+    palette: {
+        type: 'dark',
+        primary: {
+            main: "#38d39f"
+        },
+        secondary: {
+            main: "rgba(255, 255, 255, 0.15)"
+        },
+    },
 });
 theme = responsiveFontSizes(theme);
 
