@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/situchangespasapresca/static/css/main.23cd5be2.chunk.css",
+    "main.css": "/situchangespasapresca/static/css/main.c83e7b4e.chunk.css",
     "main.js": "/situchangespasapresca/static/js/main.d5a8c209.chunk.js",
     "main.js.map": "/situchangespasapresca/static/js/main.d5a8c209.chunk.js.map",
     "runtime-main.js": "/situchangespasapresca/static/js/runtime-main.368ff9a4.js",
@@ -8,15 +8,15 @@
     "static/js/2.60301b2b.chunk.js": "/situchangespasapresca/static/js/2.60301b2b.chunk.js",
     "static/js/2.60301b2b.chunk.js.map": "/situchangespasapresca/static/js/2.60301b2b.chunk.js.map",
     "index.html": "/situchangespasapresca/index.html",
-    "precache-manifest.dd55a70d032ed590f68a44cb205fba5e.js": "/situchangespasapresca/precache-manifest.dd55a70d032ed590f68a44cb205fba5e.js",
+    "precache-manifest.47f6b8f155839cd05724bf1e11fce985.js": "/situchangespasapresca/precache-manifest.47f6b8f155839cd05724bf1e11fce985.js",
     "service-worker.js": "/situchangespasapresca/service-worker.js",
-    "static/css/main.23cd5be2.chunk.css.map": "/situchangespasapresca/static/css/main.23cd5be2.chunk.css.map",
+    "static/css/main.c83e7b4e.chunk.css.map": "/situchangespasapresca/static/css/main.c83e7b4e.chunk.css.map",
     "static/js/2.60301b2b.chunk.js.LICENSE": "/situchangespasapresca/static/js/2.60301b2b.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.368ff9a4.js",
     "static/js/2.60301b2b.chunk.js",
-    "static/css/main.23cd5be2.chunk.css",
+    "static/css/main.c83e7b4e.chunk.css",
     "static/js/main.d5a8c209.chunk.js"
   ]
 }
