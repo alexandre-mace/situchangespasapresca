@@ -13,6 +13,7 @@ const Steps = (props) => (
                 mediaIndex={props.mediaIndex}
             />
             <Navigators
+                step={props.step}
                 handleStepBackward={props.handleStepBackward}
                 handleStepForward={props.handleStepForward}
             />

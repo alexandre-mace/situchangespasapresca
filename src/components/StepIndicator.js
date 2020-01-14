@@ -24,23 +24,25 @@ const StepIndicator = (props) => {
     const classes = useStyles();
 
     return (
-        <div className="row my-3">
-            <div className="col">
-                <MobileStepper
-                    variant="progress"
-                    steps={medias.length}
-                    position="static"
-                    activeStep={props.step}
-                    LinearProgressProps={{
-                        classes: {
-                            bar: classes.bar,
-                        }
-                    }}
-                    classes={{
-                        root: classes.root,
-                        progress: classes.progress,
-                    }}
-                />
+        <div id="step-indicator">
+            <div className="row my-3">
+                <div className="col">
+                    <MobileStepper
+                        variant="progress"
+                        steps={medias.length}
+                        position="static"
+                        activeStep={props.step}
+                        LinearProgressProps={{
+                            classes: {
+                                bar: classes.bar,
+                            }
+                        }}
+                        classes={{
+                            root: classes.root,
+                            progress: classes.progress,
+                        }}
+                    />
+                </div>
             </div>
         </div>
     )
