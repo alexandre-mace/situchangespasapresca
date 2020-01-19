@@ -5,7 +5,7 @@ import React from "react";
 const Media = (props) => (
     <div className="row mt-3">
         <div className="col-12">
-            <Typography id={"media-subtitle"} className={"text-center"} variant="h6" gutterBottom>
+            <Typography id={"media-subtitle"} className={"text-center"} variant="body1" gutterBottom>
                 {medias[props.mediaIndex] &&
                 medias[props.mediaIndex].subtitle
                 }

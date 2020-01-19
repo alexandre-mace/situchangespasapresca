@@ -9,6 +9,10 @@ iframe {
 }
 .App {
     height: 100vh;
+    max-height: 100vh;
+}
+.MuiTypography-body1 {
+ font-size: 1.1rem !important;
 }
 button {
     outline: none !important;

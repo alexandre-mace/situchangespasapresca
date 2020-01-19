@@ -4,7 +4,6 @@ import Media from "./Media";
 import Navigators from "./Navigators";
 
 const Steps = (props) => (
-    <div className="position-absolute d-flex h-100 w-100">
         <div className="container mb-3 mt-auto mb-md-5">
             <StepIndicator
                 step={props.step}
@@ -18,7 +17,6 @@ const Steps = (props) => (
                 handleStepForward={props.handleStepForward}
             />
         </div>
-    </div>
-)
+    )
 
 export default Steps;
