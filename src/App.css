@@ -6,10 +6,12 @@ iframe {
     display: block;       /* iframes are inline by default */
     width: 100%;
     height: 60vh;
+    height: calc(var(--vh, 1vh) * 60);
 }
 .App {
     height: 100vh;
     max-height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
 }
 .MuiTypography-body1 {
  font-size: 1.1rem !important;
@@ -41,6 +43,7 @@ svg {
         display: block;       /* iframes are inline by default */
         width: 100%;
         height: 54vh;
+        height: calc(var(--vh, 1vh) * 54);
     }
     #media-subtitle {
         /*font-size: 1rem;*/
@@ -57,6 +60,7 @@ svg {
         display: block;       /* iframes are inline by default */
         width: 100%;
         height: 48vh;
+        height: calc(var(--vh, 1vh) * 48);
     }
     #media-subtitle {
         font-size: 1rem;

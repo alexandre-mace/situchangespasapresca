@@ -7,6 +7,9 @@ import {createMuiTheme} from "@material-ui/core";
 import responsiveFontSizes from "@material-ui/core/styles/responsiveFontSizes";
 import {ThemeProvider} from '@material-ui/styles';
 
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 let theme = createMuiTheme({
     palette: {
         type: 'dark',
