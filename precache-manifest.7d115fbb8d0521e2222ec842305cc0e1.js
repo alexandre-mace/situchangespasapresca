@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "810396c9c66a408f9048fd7aab37b27b",
+    "revision": "7bcb5f5c8d9ca1af4a9d3a52e3cd0473",
     "url": "/situchangespasapresca/index.html"
   },
   {
-    "revision": "658ede534bb025eec96a",
-    "url": "/situchangespasapresca/static/css/main.9961d871.chunk.css"
+    "revision": "6319ef4f17f5b19ee084",
+    "url": "/situchangespasapresca/static/css/main.796889ad.chunk.css"
   },
   {
     "revision": "8ed5100ad700c91fb0d4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/situchangespasapresca/static/js/2.60301b2b.chunk.js.LICENSE"
   },
   {
-    "revision": "658ede534bb025eec96a",
-    "url": "/situchangespasapresca/static/js/main.c769d24e.chunk.js"
+    "revision": "6319ef4f17f5b19ee084",
+    "url": "/situchangespasapresca/static/js/main.ee0abb61.chunk.js"
   },
   {
     "revision": "26faae0a92bbbadd7468",
