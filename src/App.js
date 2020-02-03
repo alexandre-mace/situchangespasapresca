@@ -35,7 +35,7 @@ function App() {
         const hasSeenOnboarding = localStorage.getItem("situchangespasaprescaOnBoarding");
 
         if (hasSeenOnboarding) {
-            setHasSeenOnBoarding(hasSeenOnboarding);
+            setHasSeenOnBoarding(hasSeenOnboarding === 'true');
         }
         if (localStorageStep) {
             setStep(parseInt(localStorageStep));
